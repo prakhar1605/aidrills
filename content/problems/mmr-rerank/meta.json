@@ -1,0 +1,13 @@
+{
+  "id": 18,
+  "slug": "mmr-rerank",
+  "title": "Maximal Marginal Relevance",
+  "track": "retrieval",
+  "difficulty": "medium",
+  "timeBudgetMin": 30,
+  "tags": ["ranking", "diversity", "re-ranking"],
+  "companies": ["Glean", "Perplexity", "Cohere"],
+  "packages": [],
+  "entryPoint": "mmr",
+  "status": "published"
+}

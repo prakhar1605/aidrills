@@ -1,0 +1,13 @@
+{
+  "id": 19,
+  "slug": "recursive-splitter",
+  "title": "Recursive Character Splitter",
+  "track": "retrieval",
+  "difficulty": "medium",
+  "timeBudgetMin": 30,
+  "tags": ["chunking", "ingestion", "recursion"],
+  "companies": ["LangChain", "Pinecone", "Glean"],
+  "packages": [],
+  "entryPoint": "split_text",
+  "status": "published"
+}

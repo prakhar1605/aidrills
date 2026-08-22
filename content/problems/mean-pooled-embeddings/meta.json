@@ -1,0 +1,13 @@
+{
+  "id": 15,
+  "slug": "mean-pooled-embeddings",
+  "title": "Mask-Aware Mean Pooling",
+  "track": "foundations",
+  "difficulty": "easy",
+  "timeBudgetMin": 20,
+  "tags": ["embeddings", "numpy", "pooling"],
+  "companies": ["Hugging Face", "Cohere", "Voyage AI"],
+  "packages": ["numpy"],
+  "entryPoint": "mean_pool",
+  "status": "published"
+}

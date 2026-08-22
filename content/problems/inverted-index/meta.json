@@ -1,0 +1,13 @@
+{
+  "id": 20,
+  "slug": "inverted-index",
+  "title": "Inverted Index with Boolean Search",
+  "track": "retrieval",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["lexical-search", "data-structures", "indexing"],
+  "companies": ["Elastic", "Algolia", "Glean"],
+  "packages": [],
+  "entryPoint": "InvertedIndex",
+  "status": "published"
+}

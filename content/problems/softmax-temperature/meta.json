@@ -1,0 +1,13 @@
+{
+  "id": 13,
+  "slug": "softmax-temperature",
+  "title": "Softmax with Temperature",
+  "track": "foundations",
+  "difficulty": "easy",
+  "timeBudgetMin": 15,
+  "tags": ["decoding", "sampling", "numerics"],
+  "companies": ["OpenAI", "Mistral", "Together"],
+  "packages": [],
+  "entryPoint": "softmax",
+  "status": "published"
+}

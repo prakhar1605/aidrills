@@ -1,0 +1,13 @@
+{
+  "id": 25,
+  "slug": "prompt-template",
+  "title": "Prompt Template Renderer",
+  "track": "plumbing",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["prompting", "parsing", "safety"],
+  "companies": ["LangChain", "Anthropic", "Notion"],
+  "packages": [],
+  "entryPoint": "render",
+  "status": "published"
+}

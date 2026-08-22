@@ -1,0 +1,13 @@
+{
+  "id": 14,
+  "slug": "cosine-topk",
+  "title": "Cosine Similarity Top-k",
+  "track": "foundations",
+  "difficulty": "easy",
+  "timeBudgetMin": 20,
+  "tags": ["embeddings", "similarity", "search"],
+  "companies": ["Pinecone", "Chroma", "Qdrant"],
+  "packages": [],
+  "entryPoint": "cosine_top_k",
+  "status": "published"
+}

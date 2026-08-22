@@ -105,7 +105,12 @@ describe("test contract", () => {
 
   it("names an entry point the starter actually defines", () => {
     for (const problem of problems) {
-      expect(problem.starter, problem.slug).toContain(`def ${problem.entryPoint}`);
+      // The entry point is a function for most drills and a class for the
+      // stateful ones (TokenBucket, InvertedIndex, ...).
+      const defined = new RegExp(`^(?:def|class)\\s+${problem.entryPoint}\\b`, "m");
+      expect(defined.test(problem.starter), `${problem.slug}: ${problem.entryPoint}`).toBe(
+        true,
+      );
     }
   });
 });

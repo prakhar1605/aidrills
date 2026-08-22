@@ -1,0 +1,13 @@
+{
+  "id": 23,
+  "slug": "cost-estimator",
+  "title": "Token Cost Estimator",
+  "track": "plumbing",
+  "difficulty": "easy",
+  "timeBudgetMin": 20,
+  "tags": ["cost", "observability", "billing"],
+  "companies": ["OpenAI", "Anthropic", "Vercel", "Ramp"],
+  "packages": [],
+  "entryPoint": "estimate_cost",
+  "status": "published"
+}

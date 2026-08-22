@@ -1,0 +1,13 @@
+{
+  "id": 22,
+  "slug": "token-bucket",
+  "title": "Token-Bucket Rate Limiter",
+  "track": "plumbing",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["rate-limits", "reliability", "algorithms"],
+  "companies": ["OpenAI", "Stripe", "Cloudflare", "Ramp"],
+  "packages": [],
+  "entryPoint": "TokenBucket",
+  "status": "published"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 21,
+  "slug": "near-duplicate-dedupe",
+  "title": "Near-Duplicate Chunk Dedupe",
+  "track": "retrieval",
+  "difficulty": "medium",
+  "timeBudgetMin": 30,
+  "tags": ["ingestion", "deduplication", "jaccard"],
+  "companies": ["Glean", "Perplexity", "Scale AI"],
+  "packages": [],
+  "entryPoint": "dedupe",
+  "status": "published"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 16,
+  "slug": "rope-apply",
+  "title": "Rotary Position Embeddings",
+  "track": "foundations",
+  "difficulty": "hard",
+  "timeBudgetMin": 35,
+  "tags": ["transformers", "numpy", "positional-encoding"],
+  "companies": ["Meta", "Mistral", "OpenAI", "Together"],
+  "packages": ["numpy"],
+  "entryPoint": "apply_rope",
+  "status": "published"
+}

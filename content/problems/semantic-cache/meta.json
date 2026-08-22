@@ -1,0 +1,13 @@
+{
+  "id": 24,
+  "slug": "semantic-cache",
+  "title": "Semantic Cache with a Similarity Threshold",
+  "track": "plumbing",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["caching", "embeddings", "cost"],
+  "companies": ["Anthropic", "Perplexity", "Vercel"],
+  "packages": [],
+  "entryPoint": "SemanticCache",
+  "status": "published"
+}

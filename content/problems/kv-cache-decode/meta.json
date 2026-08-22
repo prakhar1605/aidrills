@@ -1,0 +1,13 @@
+{
+  "id": 17,
+  "slug": "kv-cache-decode",
+  "title": "KV Cache and a Single Decode Step",
+  "track": "foundations",
+  "difficulty": "medium",
+  "timeBudgetMin": 30,
+  "tags": ["transformers", "numpy", "inference", "attention"],
+  "companies": ["OpenAI", "Anthropic", "Together", "Fireworks"],
+  "packages": ["numpy"],
+  "entryPoint": "decode_step",
+  "status": "published"
+}
