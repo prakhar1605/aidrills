@@ -1,0 +1,3 @@
+# Local + CI only. The browser runs Pyodide and never installs these.
+pytest==8.3.4
+numpy==2.2.1
