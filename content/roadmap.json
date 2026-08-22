@@ -1,0 +1,20 @@
+{
+  "title": "14 days to an AI engineering interview",
+  "intro": "One sitting a day, 25-45 minutes. Run each drill in interview mode with the timer armed before you look at the hints. Days 7 and 14 are re-runs of drills you have already solved, which is the point: the second attempt is the one that tells you whether it stuck.",
+  "days": [
+    { "day": 1,  "title": "Decoding",           "focus": "What temperature, top_k and top_p actually do to the distribution.", "slugs": ["top-k-top-p-sampling"] },
+    { "day": 2,  "title": "Attention",          "focus": "Write it in numpy and defend the square root.",                      "slugs": ["scaled-dot-product-attention"] },
+    { "day": 3,  "title": "Tokenizers",         "focus": "The merge loop, and why your model cannot count letters.",           "slugs": ["bpe-tokenizer"] },
+    { "day": 4,  "title": "Chunking",           "focus": "The first thing every RAG pipeline does, and the first thing it gets wrong.", "slugs": ["fixed-size-chunker"] },
+    { "day": 5,  "title": "Lexical search",     "focus": "BM25 from the formula. Know what k1 and b do.",                      "slugs": ["bm25"] },
+    { "day": 6,  "title": "Hybrid retrieval",   "focus": "Fusing rankings whose scores are not comparable.",                   "slugs": ["rrf-fusion"] },
+    { "day": 7,  "title": "Retrieval, timed",   "focus": "Re-run the week under interview mode. No hints.",                    "slugs": ["fixed-size-chunker", "bm25", "rrf-fusion"] },
+    { "day": 8,  "title": "Reliability",        "focus": "The 429 handler you will write at every job you ever have.",         "slugs": ["retry-with-backoff"] },
+    { "day": 9,  "title": "Streaming",          "focus": "Chunk boundaries are not frame boundaries.",                         "slugs": ["sse-stream-parser"] },
+    { "day": 10, "title": "Structured output",  "focus": "Parse first, repair second. Never the other way round.",             "slugs": ["json-validate-repair"] },
+    { "day": 11, "title": "Agents",             "focus": "An agent is a while loop with a budget and two failure paths.",      "slugs": ["tool-calling-loop"] },
+    { "day": 12, "title": "Scoring",            "focus": "The SQuAD scorer, and why token F1 falls apart on generation.",      "slugs": ["exact-match-f1"] },
+    { "day": 13, "title": "Safety",             "focus": "Heuristic injection detection, and calibrating a threshold.",        "slugs": ["prompt-injection-detector"] },
+    { "day": 14, "title": "Mock round",         "focus": "Three drills back to back, timed, cold. This is the real rehearsal.", "slugs": ["rrf-fusion", "tool-calling-loop", "prompt-injection-detector"] }
+  ]
+}

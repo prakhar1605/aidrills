@@ -1,0 +1,37 @@
+name: web
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # src/generated/problems.json is not committed, and lint, tests and the
+      # build all import it -- so this has to come first.
+      - name: compile content
+        run: pnpm build-content
+
+      - name: lint
+        run: pnpm lint
+
+      - name: unit tests
+        run: pnpm test
+
+      - name: build
+        run: pnpm build

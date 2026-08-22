@@ -1,0 +1,13 @@
+{
+  "id": 8,
+  "slug": "sse-stream-parser",
+  "title": "SSE Stream Parser",
+  "track": "plumbing",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["streaming", "protocol", "parsing"],
+  "companies": ["OpenAI", "Anthropic", "Vercel", "Replicate"],
+  "packages": [],
+  "entryPoint": "parse_sse",
+  "status": "published"
+}

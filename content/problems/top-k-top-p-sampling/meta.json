@@ -1,0 +1,13 @@
+{
+  "id": 4,
+  "slug": "top-k-top-p-sampling",
+  "title": "Top-k / Top-p Logit Filtering",
+  "track": "foundations",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["decoding", "sampling"],
+  "companies": ["OpenAI", "Anthropic", "Mistral"],
+  "packages": [],
+  "entryPoint": "filter_logits",
+  "status": "published"
+}

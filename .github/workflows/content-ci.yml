@@ -1,0 +1,48 @@
+name: content
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  problems:
+    name: every problem, both ways
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: python/requirements-dev.txt
+
+      - run: pip install -r python/requirements-dev.txt
+
+      # The runner and the fake LLM every drill is written against.
+      - name: runtime unit tests
+        run: pytest python/selftest -q
+
+      # solution.py must pass every test; starter.py must fail at least one.
+      # Drafts are included -- a half-finished problem cannot rot in the repo.
+      - name: solutions pass, starters fail
+        run: python python/test_problem.py --all
+
+  schema:
+    name: content validates
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build-content --check

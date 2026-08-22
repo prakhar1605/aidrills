@@ -1,0 +1,13 @@
+{
+  "id": 10,
+  "slug": "tool-calling-loop",
+  "title": "Tool-Calling Loop with a Step Budget",
+  "track": "agents",
+  "difficulty": "medium",
+  "timeBudgetMin": 30,
+  "tags": ["agents", "tool-use", "control-flow"],
+  "companies": ["OpenAI", "Anthropic", "LangChain", "Sierra"],
+  "packages": [],
+  "entryPoint": "run_agent",
+  "status": "published"
+}

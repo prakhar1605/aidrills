@@ -1,0 +1,13 @@
+{
+  "id": 5,
+  "slug": "scaled-dot-product-attention",
+  "title": "Scaled Dot-Product Attention",
+  "track": "foundations",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["transformers", "numpy", "attention"],
+  "companies": ["OpenAI", "Anthropic", "Meta", "Mistral"],
+  "packages": ["numpy"],
+  "entryPoint": "attention",
+  "status": "published"
+}

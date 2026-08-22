@@ -1,0 +1,13 @@
+{
+  "id": 0,
+  "slug": "SLUG",
+  "title": "TITLE",
+  "track": "foundations",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": [],
+  "companies": [],
+  "packages": [],
+  "entryPoint": "solve",
+  "status": "draft"
+}

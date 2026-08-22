@@ -1,0 +1,32 @@
+[
+  {
+    "id": "foundations",
+    "name": "Foundations",
+    "blurb": "The tensor-level things you are expected to write on a whiteboard: attention, tokenizers, decoding.",
+    "accent": "#4F7CFF"
+  },
+  {
+    "id": "retrieval",
+    "name": "Retrieval",
+    "blurb": "Chunking, lexical scoring, fusion, re-ranking. Everything between a document and a context window.",
+    "accent": "#E8A33D"
+  },
+  {
+    "id": "plumbing",
+    "name": "LLM Plumbing",
+    "blurb": "Retries, streams, rate limits, structured output. The code that decides whether your app survives a Tuesday.",
+    "accent": "#58C4A0"
+  },
+  {
+    "id": "agents",
+    "name": "Agents",
+    "blurb": "Loops, budgets, tool schemas, memory. An agent is control flow, and this is that control flow.",
+    "accent": "#B98CFF"
+  },
+  {
+    "id": "evals",
+    "name": "Evals & Safety",
+    "blurb": "Scoring, judging, redacting, detecting. You cannot ship what you cannot measure.",
+    "accent": "#E0687A"
+  }
+]

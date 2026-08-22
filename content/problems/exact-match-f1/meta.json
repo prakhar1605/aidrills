@@ -1,0 +1,13 @@
+{
+  "id": 6,
+  "slug": "exact-match-f1",
+  "title": "Exact Match and Token F1",
+  "track": "evals",
+  "difficulty": "easy",
+  "timeBudgetMin": 20,
+  "tags": ["metrics", "qa", "scoring"],
+  "companies": ["Scale AI", "Surge", "Hugging Face"],
+  "packages": [],
+  "entryPoint": "f1_score",
+  "status": "published"
+}

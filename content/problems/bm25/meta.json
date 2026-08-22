@@ -1,0 +1,13 @@
+{
+  "id": 2,
+  "slug": "bm25",
+  "title": "BM25 Ranking",
+  "track": "retrieval",
+  "difficulty": "medium",
+  "timeBudgetMin": 30,
+  "tags": ["ranking", "lexical-search", "hybrid-search"],
+  "companies": ["Elastic", "Glean", "Cohere"],
+  "packages": [],
+  "entryPoint": "bm25_scores",
+  "status": "published"
+}

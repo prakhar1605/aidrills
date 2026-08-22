@@ -1,0 +1,13 @@
+{
+  "id": 3,
+  "slug": "rrf-fusion",
+  "title": "Reciprocal Rank Fusion",
+  "track": "retrieval",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["ranking", "hybrid-search"],
+  "companies": ["Cohere", "Glean", "Elastic"],
+  "packages": [],
+  "entryPoint": "rrf_fuse",
+  "status": "published"
+}

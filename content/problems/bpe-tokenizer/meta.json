@@ -1,0 +1,13 @@
+{
+  "id": 12,
+  "slug": "bpe-tokenizer",
+  "title": "BPE Tokenizer: Train and Encode",
+  "track": "foundations",
+  "difficulty": "hard",
+  "timeBudgetMin": 40,
+  "tags": ["tokenization", "algorithms"],
+  "companies": ["OpenAI", "Hugging Face", "Mistral", "Cohere"],
+  "packages": [],
+  "entryPoint": "train_bpe",
+  "status": "published"
+}

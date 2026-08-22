@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "slug": "fixed-size-chunker",
+  "title": "Fixed-Size Chunker with Overlap",
+  "track": "retrieval",
+  "difficulty": "easy",
+  "timeBudgetMin": 15,
+  "tags": ["chunking", "ingestion"],
+  "companies": ["Pinecone", "Weaviate", "Vectara"],
+  "packages": [],
+  "entryPoint": "chunk_text",
+  "status": "published"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 9,
+  "slug": "json-validate-repair",
+  "title": "JSON Output: Validate and Repair",
+  "track": "plumbing",
+  "difficulty": "medium",
+  "timeBudgetMin": 30,
+  "tags": ["structured-output", "parsing", "robustness"],
+  "companies": ["OpenAI", "Anthropic", "Instructor", "LangChain"],
+  "packages": [],
+  "entryPoint": "extract_json",
+  "status": "published"
+}

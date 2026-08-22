@@ -1,0 +1,13 @@
+{
+  "id": 7,
+  "slug": "retry-with-backoff",
+  "title": "Retry with Exponential Backoff and Jitter",
+  "track": "plumbing",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["reliability", "rate-limits", "backoff"],
+  "companies": ["OpenAI", "Anthropic", "Ramp", "Notion"],
+  "packages": [],
+  "entryPoint": "call_with_retry",
+  "status": "published"
+}

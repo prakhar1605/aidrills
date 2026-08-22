@@ -1,0 +1,13 @@
+{
+  "id": 11,
+  "slug": "prompt-injection-detector",
+  "title": "Prompt-Injection Detector",
+  "track": "evals",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["safety", "heuristics", "regex"],
+  "companies": ["Anthropic", "Lakera", "Robust Intelligence"],
+  "packages": [],
+  "entryPoint": "detect_injection",
+  "status": "published"
+}
