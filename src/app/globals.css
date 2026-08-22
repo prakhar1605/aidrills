@@ -1,0 +1,215 @@
+@import "tailwindcss";
+
+/* Design tokens — docs/SPEC.md section 9. Dark first; light is polish. */
+@theme {
+  --color-surface: #121417;
+  --color-raised: #1a1d21;
+  --color-sunken: #0d0f11;
+  --color-line: #24282e;
+  --color-line-strong: #343941;
+  --color-ink: #e6e1d6;
+  --color-muted: #8c8a84;
+  --color-accent: #4f7cff;
+  --color-accent-dim: #2b4694;
+
+  /* Pass/fail live only inside the results panel. */
+  --color-pass: #57c98a;
+  --color-fail: #e3576b;
+  --color-warn: #e8a33d;
+
+  --font-sans: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, "SF Mono", Menlo, monospace;
+  --font-display: var(--font-instrument-serif), "Iowan Old Style", Georgia, serif;
+}
+
+html {
+  color-scheme: dark;
+  scrollbar-color: var(--color-line-strong) transparent;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-accent-dim);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* The results panel is the only thing on the site that animates. */
+@keyframes row-in {
+  from {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.result-row {
+  animation: row-in 160ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* --- CodeMirror ------------------------------------------------------- */
+
+.cm-editor {
+  height: 100%;
+  background: transparent;
+}
+
+.cm-editor.cm-focused {
+  outline: none;
+}
+
+.cm-scroller {
+  font-family: var(--font-mono) !important;
+  line-height: 1.6;
+}
+
+.cm-gutters {
+  background: transparent !important;
+  border-right: 1px solid var(--color-line) !important;
+  color: color-mix(in srgb, var(--color-muted) 55%, transparent) !important;
+}
+
+.cm-activeLine,
+.cm-activeLineGutter {
+  background: color-mix(in srgb, var(--color-ink) 4%, transparent) !important;
+}
+
+/* --- Markdown (statements, hints, resources) --------------------------- */
+
+.prose-drill {
+  color: var(--color-ink);
+  font-size: 0.9375rem;
+  line-height: 1.7;
+}
+
+.prose-drill > * + * {
+  margin-top: 1rem;
+}
+
+.prose-drill h2,
+.prose-drill h3 {
+  margin-top: 2rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.prose-drill a {
+  color: var(--color-accent);
+  text-underline-offset: 3px;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--color-accent) 40%, transparent);
+}
+
+.prose-drill a:hover {
+  text-decoration-color: var(--color-accent);
+}
+
+.prose-drill strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.prose-drill code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--color-raised);
+  border: 1px solid var(--color-line);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+
+.prose-drill pre {
+  background: var(--color-sunken);
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  padding: 0.875rem 1rem;
+  overflow-x: auto;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+.prose-drill pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: inherit;
+}
+
+.prose-drill ul,
+.prose-drill ol {
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.prose-drill ul {
+  list-style: disc;
+}
+
+.prose-drill ol {
+  list-style: decimal;
+}
+
+.prose-drill li::marker {
+  color: var(--color-line-strong);
+}
+
+.prose-drill table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8125rem;
+  display: block;
+  overflow-x: auto;
+}
+
+.prose-drill th,
+.prose-drill td {
+  border: 1px solid var(--color-line);
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose-drill th {
+  color: var(--color-muted);
+  font-weight: 500;
+}
+
+.prose-drill blockquote {
+  border-left: 2px solid var(--color-line-strong);
+  padding-left: 1rem;
+  color: var(--color-muted);
+}
+
+.prose-drill hr {
+  border: 0;
+  border-top: 1px solid var(--color-line);
+}
