@@ -5,8 +5,9 @@ run real tests instantly. No signup, no API key, no server — your code execute
 Worker in your own tab on [Pyodide](https://pyodide.org/) (CPython compiled to
 WebAssembly).
 
-Twelve drills across five tracks: attention and BPE, BM25 and reciprocal rank fusion,
-retries and SSE parsing, agent loops, eval scorers and injection detection.
+Thirty-four drills across five tracks: attention, RoPE, KV caching and BPE; BM25,
+reciprocal rank fusion and MMR; backoff, token buckets and SSE parsing; agent loops,
+schedulers and memory; eval scorers, LLM judges and injection detection.
 
 ```bash
 pnpm install
