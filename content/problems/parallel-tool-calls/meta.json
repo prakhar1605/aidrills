@@ -1,0 +1,13 @@
+{
+  "id": 28,
+  "slug": "parallel-tool-calls",
+  "title": "Parallel Tool Calls in Dependency Order",
+  "track": "agents",
+  "difficulty": "hard",
+  "timeBudgetMin": 35,
+  "tags": ["agents", "scheduling", "graphs"],
+  "companies": ["Anthropic", "OpenAI", "Sierra"],
+  "packages": [],
+  "entryPoint": "schedule",
+  "status": "published"
+}

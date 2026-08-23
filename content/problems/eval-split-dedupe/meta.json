@@ -1,0 +1,13 @@
+{
+  "id": 34,
+  "slug": "eval-split-dedupe",
+  "title": "Eval Dataset Dedupe and Split",
+  "track": "evals",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["evals", "datasets", "leakage"],
+  "companies": ["Scale AI", "Hugging Face", "Surge", "Braintrust"],
+  "packages": [],
+  "entryPoint": "dedupe_and_split",
+  "status": "published"
+}

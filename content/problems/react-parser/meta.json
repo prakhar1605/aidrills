@@ -1,0 +1,13 @@
+{
+  "id": 26,
+  "slug": "react-parser",
+  "title": "ReAct Output Parser",
+  "track": "agents",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["agents", "parsing", "robustness"],
+  "companies": ["LangChain", "OpenAI", "Sierra"],
+  "packages": [],
+  "entryPoint": "parse_react",
+  "status": "published"
+}

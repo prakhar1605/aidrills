@@ -147,4 +147,12 @@ describe("roadmap", () => {
       roadmap.days.map((_, index) => index + 1),
     );
   });
+
+  it("covers every published problem", () => {
+    const scheduled = new Set(roadmap.days.flatMap((day) => day.slugs));
+    const missing = problems
+      .map((problem) => problem.slug)
+      .filter((slug) => !scheduled.has(slug));
+    expect(missing, "problems missing from the roadmap").toEqual([]);
+  });
 });

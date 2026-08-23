@@ -1,0 +1,13 @@
+{
+  "id": 31,
+  "slug": "llm-judge",
+  "title": "LLM-as-Judge Harness",
+  "track": "evals",
+  "difficulty": "medium",
+  "timeBudgetMin": 30,
+  "tags": ["evals", "scoring", "parsing"],
+  "companies": ["Anthropic", "Scale AI", "Braintrust", "LangSmith"],
+  "packages": [],
+  "entryPoint": "judge",
+  "status": "published"
+}

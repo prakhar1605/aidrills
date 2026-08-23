@@ -1,0 +1,13 @@
+{
+  "id": 32,
+  "slug": "pii-redactor",
+  "title": "PII Redactor",
+  "track": "evals",
+  "difficulty": "medium",
+  "timeBudgetMin": 25,
+  "tags": ["safety", "privacy", "regex"],
+  "companies": ["Anthropic", "Stripe", "Ramp", "Notion"],
+  "packages": [],
+  "entryPoint": "redact",
+  "status": "published"
+}

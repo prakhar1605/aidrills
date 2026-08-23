@@ -1,0 +1,13 @@
+{
+  "id": 33,
+  "slug": "elo-preferences",
+  "title": "Pairwise Preference Aggregation (Elo)",
+  "track": "evals",
+  "difficulty": "medium",
+  "timeBudgetMin": 30,
+  "tags": ["evals", "ranking", "preferences"],
+  "companies": ["LMSYS", "Scale AI", "Anthropic"],
+  "packages": [],
+  "entryPoint": "elo_ratings",
+  "status": "published"
+}

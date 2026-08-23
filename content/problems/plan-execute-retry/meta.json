@@ -1,0 +1,13 @@
+{
+  "id": 30,
+  "slug": "plan-execute-retry",
+  "title": "Plan, Execute, Retry",
+  "track": "agents",
+  "difficulty": "medium",
+  "timeBudgetMin": 30,
+  "tags": ["agents", "orchestration", "reliability"],
+  "companies": ["Sierra", "Anthropic", "Adept", "LangChain"],
+  "packages": [],
+  "entryPoint": "run_plan",
+  "status": "published"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 29,
+  "slug": "sliding-window-memory",
+  "title": "Sliding-Window Memory with Summarization",
+  "track": "agents",
+  "difficulty": "medium",
+  "timeBudgetMin": 30,
+  "tags": ["agents", "memory", "context-window"],
+  "companies": ["Anthropic", "OpenAI", "Sierra", "Character.AI"],
+  "packages": [],
+  "entryPoint": "WindowMemory",
+  "status": "published"
+}

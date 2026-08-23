@@ -1,0 +1,13 @@
+{
+  "id": 27,
+  "slug": "tool-schema-validator",
+  "title": "Tool Argument Validator",
+  "track": "agents",
+  "difficulty": "medium",
+  "timeBudgetMin": 30,
+  "tags": ["agents", "tool-use", "validation"],
+  "companies": ["OpenAI", "Anthropic", "Sierra", "LangChain"],
+  "packages": [],
+  "entryPoint": "validate_args",
+  "status": "published"
+}
